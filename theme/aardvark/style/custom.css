@@ -4,11 +4,6 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
-#page-footer {
-    border: 0;
-    background-color: #273b47;
-    color: #D7E1E2;
-}
  .usermenu .moodle-actionmenu .toggle-display .userbutton .avatars img {
     border-radius: 50px;
 }
@@ -514,10 +509,8 @@ border:0;
 
 #page-footer {
     border: 0;
-	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1) inset;
-	background-color: #c3d1d2;
-	color: #7F8C8D;
-	text-shadow: 1px 1px #ECF0F1;
+    background-color: #273b47;
+    color: #D7E1E2;
 }
 
 #page-footer  a{
