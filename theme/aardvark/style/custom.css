@@ -21,6 +21,11 @@ button, input.form-submit, input[type="button"], input[type="submit"], input[typ
     border-bottom: 5px solid #58902D;
 }
 /*Fin botones digital***/
+#page-footer {
+    border: 0;
+    background-color: #273b47;
+    color: #D7E1E2;
+}
  .usermenu .moodle-actionmenu .toggle-display .userbutton .avatars img {
     border-radius: 50px;
 }
