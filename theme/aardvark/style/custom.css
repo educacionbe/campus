@@ -4,6 +4,27 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ /**Mensajería**/
+.message .time {
+    color: #FFF;
+    background: #F74141;
+    border-radius: 5px;
+    padding-right: 4px;
+    padding-left: 2px;
+}
+ .message.me {
+    background: #BEE9FD;
+    padding: 4px;
+    border-radius: 5px;
+    color: #058ECD;
+}
+ .message.other {
+    background: #C3F5CB;
+    padding: 4px;
+    border-radius: 5px;
+    color: #138A25;
+}
+ /****/
  /**modificado cursos*/
  .course-content .section-summary .section-title {
     margin: 0px 0px 0px 0px;
