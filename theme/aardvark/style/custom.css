@@ -689,9 +689,10 @@ input#id_submitbutton,
 input#id_submitbutton2,
 .path-admin .buttons input[type="submit"],
 td.submit input {
-		background: [[setting:maincolor]];
-		border: 0;
-		text-shadow: none;
+    background: #058ECD;
+    border: 0;
+    text-shadow: none;
+    border-bottom: 5px solid #046794;
 }
 button:hover,
 input.form-submit:hover,
@@ -736,8 +737,9 @@ input#id_submitbutton[disabled],
 input#id_submitbutton2[disabled],
 .path-admin .buttons input[type="submit"][disabled],
 td.submit input[disabled] {
-		color: #fff;
-		background: #4f4f4f;
+    color: #fff;
+    background: #fbba0a;
+    border-bottom: 5px solid #814f1d;
 }
 button.active,
 input.form-submit.active,
