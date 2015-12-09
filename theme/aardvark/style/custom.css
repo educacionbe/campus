@@ -5,6 +5,11 @@
  */
  /**/
  /**modificado cursos*/
+h3.sectionname {
+    background: #FCB322;
+    color: white;
+    text-align: center;
+}
  .no-overflow {
     padding-bottom: 1px;
     overflow: initial;
@@ -56,9 +61,7 @@ background-color: #ECF0F1;
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    background: #176579;
-    color: white;
-    text-align: center;
+    color: #595959;
     margin: 0px 0px;
 }
 
