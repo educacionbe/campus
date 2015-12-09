@@ -6,6 +6,11 @@
  /**/
  /**modificado cursos*/
  .course-content ul.topics li.section .summary {
+    margin-left: 2px;
+}
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+    padding: 0;
+    margin-right: 2px;
     margin-left: 0px;
 }
  /**fin de modificacion de cursos*/
