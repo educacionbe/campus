@@ -5,6 +5,11 @@
  */
  /**/
  /**modificado cursos*/
+ .course-content .single-section .section-navigation {
+    display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+}
  .course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
     width: 0px;
     text-align: center;
