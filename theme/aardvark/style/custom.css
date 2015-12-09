@@ -55,7 +55,10 @@ background-color: #ECF0F1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-weight:normal;
+    font-weight: normal;
+    background: #176579;
+    color: white;
+    text-align: center;
 }
 
 .block .content h3 {
