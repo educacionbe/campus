@@ -5,6 +5,11 @@
  */
  /**/
  /**modificado cursos*/
+ .course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
+    width: 0px;
+    text-align: center;
+    padding: 6px 0;
+}
 h3.sectionname {
     background: #FCB322;
     color: white;
