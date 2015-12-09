@@ -5,6 +5,17 @@
  */
  /**/
  /**modificado cursos*/
+ .course-content .section-summary .section-title {
+    margin: 0px 0px 0px 0px;
+}
+.course-content .section-summary .summarytext {
+    margin: 0px 0px 0px 0px;
+}
+ h3.section-title {
+    background: #FCB322;
+    color: white;
+    text-align: center;
+}
  .course-content .single-section .section-navigation {
     display: block;
     padding: 0px;
