@@ -9,12 +9,12 @@
     padding-bottom: 1px;
     overflow: initial;
 }
- .course-content ul.topics li.section .summary {
-    margin-left: 2px;
+.course-content ul.topics li.section .summary {
+    margin-left: 0px;
 }
 .course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
     padding: 0;
-    margin-right: 2px;
+    margin-right: 0px;
     margin-left: 0px;
 }
  /**fin de modificacion de cursos*/
@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #176579;
     color: white;
     text-align: center;
+    margin: 0px 0px;
 }
 
 .block .content h3 {
