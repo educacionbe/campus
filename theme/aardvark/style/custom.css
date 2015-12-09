@@ -5,6 +5,10 @@
  */
  /**/
  /**modificado cursos*/
+ .no-overflow {
+    padding-bottom: 1px;
+    overflow: initial;
+}
  .course-content ul.topics li.section .summary {
     margin-left: 2px;
 }
