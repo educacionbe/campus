@@ -3,13 +3,108 @@
  * @package   theme_educacionbe
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+ /**/
+ /**Mensajería**/
+.message .time {
+    color: #FFF;
+    background: #F74141;
+    border-radius: 5px;
+    padding-right: 4px;
+    padding-left: 2px;
+}
+ .message.me {
+    background: #BEE9FD;
+    padding: 4px;
+    border-radius: 5px;
+    color: #058ECD;
+}
+ .message.other {
+    background: #C3F5CB;
+    padding: 4px;
+    border-radius: 5px;
+    color: #138A25;
+}
+ /****/
+ /**modificado cursos*/
+ .course-content .section-summary .section-title {
+    margin: 0px 0px 0px 0px;
+}
+.course-content .section-summary .summarytext {
+    margin: 0px 0px 0px 0px;
+}
+ h3.section-title {
+    background: #FCB322;
+    color: white;
+    text-align: center;
+}
+ .course-content .single-section .section-navigation {
+    display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+ .course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
+    width: 0px;
+    text-align: center;
+    padding: 6px 0;
+}
+h3.sectionname {
+    background: #FCB322;
+    color: white;
+    text-align: center;
+}
+ .no-overflow {
+    padding-bottom: 1px;
+    overflow: initial;
+}
+.course-content ul.topics li.section .summary {
+    margin-left: 0px;
+}
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+ /**fin de modificacion de cursos*/
+ .usermenu .moodle-actionmenu .toggle-display .userbutton .avatars img {
+    border-radius: 50px;
+}
+ img.defaultuserpic {
+    border-radius: 50px;
+    border: none;
+}
+.dir-ltr .usermenu {
+    border-left: 7px solid #F42941;
+    background-color: #FFDB04;
+}
+ .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+ .navbar .brand {
+    color: #FFF;
+    text-transform: uppercase;
+}
+ body {
+    font-size: 13px;
+}
+ .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    background: #273b47;
+}
+ img {
+    max-width: 100%;
+}
+ /**/
 html,body {
 background-color: #ECF0F1;
-font-family: 'open sans',sans-serif;
+/*font-family: 'open sans',sans-serif;*/
+    font: 15px/20px Roboto,sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-weight:normal;
+    font-weight: normal;
+    color: #273b47;
+    margin: 0px 0px;
 }
 
 .block .content h3 {
@@ -468,6 +563,7 @@ border:0;
 
 .userpicture {
     border-radius: 2px;
+    border-radius: 50px;
 }
 
 .headingblock {
@@ -477,10 +573,8 @@ border:0;
 
 #page-footer {
     border: 0;
-	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1) inset;
-	background-color: #c3d1d2;
-	color: #7F8C8D;
-	text-shadow: 1px 1px #ECF0F1;
+    background-color: #273b47;
+    color: #D7E1E2;
 }
 
 #page-footer  a{
@@ -646,21 +740,23 @@ input[type="submit"],
 input[type="reset"],
 #notice .singlebutton + .singlebutton input,
 .submit.buttons input[name="cancel"] {
-		color: #fff;
-		text-shadow: none;
-		background:[[setting:maincolor]];
-		padding:10px 16px;
-		border: 0;
-		transition:background 0.5s;
+    color: #fff;
+    text-shadow: none;
+    background: #7ECD40;
+    padding: 10px 16px;
+    border: 5px;
+    transition: background 0.5s;
+    border-bottom: 5px solid #58902D;
 }
 input.form-submit,
 input#id_submitbutton,
 input#id_submitbutton2,
 .path-admin .buttons input[type="submit"],
 td.submit input {
-		background: [[setting:maincolor]];
-		border: 0;
-		text-shadow: none;
+    background: #058ECD;
+    border: 0;
+    text-shadow: none;
+    border-bottom: 5px solid #046794;
 }
 button:hover,
 input.form-submit:hover,
@@ -676,9 +772,10 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 #notice .singlebutton + .singlebutton input:focus,
 .submit.buttons input[name="cancel"]:focus {
-		color: #fff;
-		background: #4f4f4f;
-		outline: 0;
+    color: #fff;
+    background: #ff4842;
+    outline: 0;
+    border-bottom: 5px solid #B51E19;
 }
 input.form-submit:hover,
 input#id_submitbutton:hover,
@@ -704,8 +801,9 @@ input#id_submitbutton[disabled],
 input#id_submitbutton2[disabled],
 .path-admin .buttons input[type="submit"][disabled],
 td.submit input[disabled] {
-		color: #fff;
-		background: #4f4f4f;
+    color: #fff;
+    background: #fbba0a;
+    border-bottom: 5px solid #814f1d;
 }
 button.active,
 input.form-submit.active,
