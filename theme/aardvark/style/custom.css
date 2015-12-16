@@ -4,6 +4,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ .content .section-title a {
+    color: white;
+}
  /**Mensajería**/
 .message .time {
     color: #FFF;
