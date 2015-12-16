@@ -4,6 +4,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ h3.section-title:hover {
+    background: #00b0cb;
+}
  .content .section-title a {
     color: white;
 }
