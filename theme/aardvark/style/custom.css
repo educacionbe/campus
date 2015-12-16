@@ -4,6 +4,18 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ .course-content .section-summary .section-summary-activities .activity-count {
+    display: inline-block;
+    margin: 3px;
+    font-size: 11.9px;
+    color: #8C7800;
+    white-space: nowrap;
+    background: #FFDB04;
+    border-bottom: 2px solid #C7AC07;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
  h3.section-title:hover {
     background: #00b0cb;
 }
