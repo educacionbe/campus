@@ -105,6 +105,7 @@ h3.sectionname {
 }
  body {
     font-size: 13px;
+    color: #686868;
 }
  .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     background: #273b47;
