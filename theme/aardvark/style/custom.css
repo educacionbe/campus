@@ -4,6 +4,10 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ #page-footer a {
+    color: #FFDB04;
+    text-shadow: none;
+}
  a#notificationno {
     background: #DF92EC;
     padding-left: 2px;
