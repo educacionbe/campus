@@ -4,6 +4,13 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ div#newmessagetext {
+    background: #6CFF00;
+    border-radius: 3px;
+    border-bottom: 2px solid #4EB105;
+    margin-top: 30px;
+    padding-bottom: 2px;
+}
  #newmessageoverlay {
     position: fixed;
     right: 0;
