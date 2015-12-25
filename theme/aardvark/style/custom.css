@@ -4,6 +4,24 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ a#notificationno {
+    background: #DF92EC;
+    padding-left: 2px;
+    padding-right: 3px;
+    border-radius: 3px;
+    border-bottom: 2px solid #BE0DDC;
+    color: #B603D4;
+}
+ a#notificationyes {
+    background: #51E7FF;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 3px;
+    border-bottom: 2px solid #1FB0C7;
+}
+ div#newmessagelinks {
+    margin-top: 3px;
+}
  div#newmessagetext {
     background: #6CFF00;
     border-radius: 3px;
