@@ -76,6 +76,22 @@ div#course-2 {
     background-position: 100%;
     background-size: 20%;
 }
+/*Corel Draw Básico*/
+div#course-2 {
+    background-color: rgb(97, 165, 7);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/proyecto/coreldraw/coreldraw.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*Corel Draw Avanzado*/
+div#course-2 {
+    background-color: rgb(97, 165, 7);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/proyecto/coreldraw/coreldraw.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
  /***/
  /**/
  #page-footer a {
