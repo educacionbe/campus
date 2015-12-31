@@ -3,6 +3,23 @@
  * @package   theme_educacionbe
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+ /***/
+ .block_course_overview .content h2.title {
+    float: none;
+    margin: 0 0 .1em 0;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    text-transform: uppercase;
+}
+div#course-14 {
+    background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/word.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+ /***/
  /**/
  #page-footer a {
     color: #FFDB04;
