@@ -14,7 +14,7 @@
 }
 /**MS Excel Básico*/
 div#course-12 {
-    background-color: rgb(10, 22, 80);
+    background-color: rgb(0, 114, 51);
     background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/excel.png?raw=true");
     background-repeat: no-repeat;
     background-position: 100%;
@@ -22,7 +22,7 @@ div#course-12 {
 }
 /*MS Access Básico*/
 div#course-14 {
-    background-color: rgb(10, 22, 80);
+    background-color: rgb(185, 19, 26);
     background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/access.png?raw=true");
     background-repeat: no-repeat;
     background-position: 100%;
@@ -46,16 +46,32 @@ div#course-6 {
 }
 /*MS PowerPoint Avanzado*/
 div#course-9 {
-    background-color: rgb(10, 22, 80);
-    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/powerpoint.png?raw=true");
+    background-color: rgb(230, 65, 28);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/portales/powepoint.png");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 20%;
 }
 /*MS PowerPoint*/
 div#course-8 {
-    background-color: rgb(10, 22, 80);
-    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/powerpoint.png?raw=true");
+    background-color: rgb(230, 65, 28);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/portales/powepoint.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*Adobe Photoshop Basico*/
+div#course-3 {
+    background-color: rgb(63, 81, 181);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/proyecto/photoshop/photoshop.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*Adobe Photoshop Avanzado*/
+div#course-2 {
+    background-color: rgb(63, 81, 181);
+    background-image: url("https://raw.githubusercontent.com/educacionbe/resource/master/designs-png/proyecto/photoshop/photoshop.png");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 20%;
