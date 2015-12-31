@@ -3,6 +3,14 @@
  * @package   theme_educacionbe
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+ /**/
+ div.course_title h2.title a {
+    color: #FFFFFF;
+}
+div.course_title h2.title a:hover {
+    color: orange;
+}
+ /**/
  /***/
  .block_course_overview .content h2.title {
     float: none;
