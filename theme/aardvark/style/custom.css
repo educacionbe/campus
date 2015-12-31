@@ -12,9 +12,50 @@
     width: 70%;
     text-transform: uppercase;
 }
+/**MS Excel Básico*/
+div#course-12 {
+    background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/excel.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*MS Access Básico*/
 div#course-14 {
     background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/access.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*MS Word Básico*/
+div#course-7 {
+    background-color: rgb(10, 22, 80);
     background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/word.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*MS Word Avanzado*/
+div#course-6 {
+    background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/word.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*MS PowerPoint Avanzado*/
+div#course-9 {
+    background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/powerpoint.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+/*MS PowerPoint*/
+div#course-8 {
+    background-color: rgb(10, 22, 80);
+    background-image: url("https://github.com/educacionbe/resource/blob/master/designs-png/portales/powerpoint.png?raw=true");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: 20%;
