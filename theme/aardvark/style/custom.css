@@ -42,11 +42,11 @@
 .course-content .single-section .section-navigation .mdl-right:hover {
     float: right;
     margin-right: 1em;
-    border-bottom: 3px solid #FF5900;
+    border-bottom: 3px solid #219009;
     border-radius: 4px;
     padding: 5px;
     font-weight: bold;
-    background-color: rgb(255, 204, 0);
+    background-color: #0CBA5D;
     margin-bottom: 4px;
 }
  /**/
