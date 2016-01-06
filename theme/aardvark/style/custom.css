@@ -4,6 +4,55 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ span.mdl-left a {
+    color: #FFFFFF;
+}
+ span.mdl-right a {
+    color: #FFFFFF;
+}
+ .course-content .single-section .section-navigation .mdl-left:hover {
+    float: left;
+    margin-right: 1em;
+    border-bottom: 3px solid #FF5900;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    background-color: rgb(255, 204, 0);
+    margin-bottom: 4px;
+}
+ .course-content .single-section .section-navigation .mdl-left {
+    float: left;
+    margin-right: 1em;
+    border-bottom: 3px solid #029E44;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    background-color: #2ECC71;
+    margin-bottom: 4px;
+}
+ .course-content .single-section .section-navigation .mdl-right {
+    float: right;
+    margin-right: 1em;
+    border-bottom: 3px solid #AB0091;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #CC21B2;
+    margin-bottom: 4px;
+}
+.course-content .single-section .section-navigation .mdl-right:hover {
+    float: right;
+    margin-right: 1em;
+    border-bottom: 3px solid #219009;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #0CBA5D;
+    margin-bottom: 4px;
+}
+ /**/
  div.course_title h2.title a {
     color: #FFFFFF;
 }
@@ -173,7 +222,8 @@ div#newmessageoverlay {
     padding-right: 3px;
 }
  h3.section-title:hover {
-    background: #00b0cb;
+    /*background: #00b0cb;*/
+    background: #FFCC00;
 }
  .content .section-title a {
     color: white;
@@ -207,7 +257,8 @@ div#newmessageoverlay {
     margin: 0px 0px 0px 0px;
 }
  h3.section-title {
-    background: #4CAF50;
+    /*background: #4CAF50;*/
+    background: #00b0cb;
     color: white;
     text-align: center;
 }
