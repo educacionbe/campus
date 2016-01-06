@@ -174,7 +174,7 @@ div#newmessageoverlay {
 }
  h3.section-title:hover {
     /*background: #00b0cb;*/
-    background: #00b0cb;
+    background: #FFCC00;
 }
  .content .section-title a {
     color: white;
@@ -208,7 +208,8 @@ div#newmessageoverlay {
     margin: 0px 0px 0px 0px;
 }
  h3.section-title {
-    background: #4CAF50;
+    /*background: #4CAF50;*/
+    background: #00b0cb;
     color: white;
     text-align: center;
 }
