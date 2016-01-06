@@ -4,6 +4,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ span.mdl-right a {
+    color: #FFFFFF;
+}
  .course-content .single-section .section-navigation .mdl-left:hover {
     float: left;
     margin-right: 1em;
@@ -29,11 +32,11 @@
  .course-content .single-section .section-navigation .mdl-right {
     float: right;
     margin-right: 1em;
-    border-bottom: 3px solid #0184B3;
+    border-bottom: 3px solid #AB0091;
     border-radius: 4px;
     padding: 5px;
     font-weight: bold;
-    background-color: rgb(157, 227, 252);
+    background-color: #CC21B2;
     margin-bottom: 4px;
 }
 .course-content .single-section .section-navigation .mdl-right:hover {
