@@ -4,6 +4,49 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ .course-content .single-section .section-navigation .mdl-left:hover {
+    float: left;
+    margin-right: 1em;
+    border-bottom: 3px solid #FF5900;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    background-color: rgb(255, 204, 0);
+    margin-bottom: 4px;
+}
+ .course-content .single-section .section-navigation .mdl-left {
+    float: left;
+    margin-right: 1em;
+    border-bottom: 3px solid #0184B3;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    background-color: rgb(157, 227, 252);
+    margin-bottom: 4px;
+}
+ .course-content .single-section .section-navigation .mdl-right {
+    float: right;
+    margin-right: 1em;
+    border-bottom: 3px solid #0184B3;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(157, 227, 252);
+    margin-bottom: 4px;
+}
+.course-content .single-section .section-navigation .mdl-right:hover {
+    float: right;
+    margin-right: 1em;
+    border-bottom: 3px solid #FF5900;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(255, 204, 0);
+    margin-bottom: 4px;
+}
+ /**/
  div.course_title h2.title a {
     color: #FFFFFF;
 }
