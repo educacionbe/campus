@@ -4,8 +4,11 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ .block_teaching_team .user_profile .user_picture {
+    float: left;
+}
+
  .block_teaching_team .user_profile .user_picture .user_image {
-    width: 100%;
     border-radius: 50px;
 }
  span.mdl-left a {
