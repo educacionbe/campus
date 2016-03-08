@@ -4,6 +4,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  /**/
+ .badges li {
+    width: auto;
+}
  .block_teaching_team .user_profile .user_picture {
     float: left;
 }
